@@ -643,7 +643,7 @@ int main (void)
     
     printf("la somme de la diagonal est : %d \n",S);
 
-*/
+*//*
     int T[Lmax][Cmax] , i , j , L , C ;
     
     do
@@ -686,7 +686,104 @@ int main (void)
         
         printf("\n");
     }
+*//*
+    int A = 1 , B = 2 , C = 3 ;
+    int *P1 , * P2 ;
 
-        
+    P1 = &A ;
+    printf("\n %d \t %d \t %d ",A,B,C);
+    P2 = &C ;
+    printf("\n %d \t %d \t %d ",A,B,C);
+    *P1 = (*P2)++ ;
+    printf("\n %d \t %d \t %d ",A,B,C);
+    P1 = P2 ;
+    printf("\n %d \t %d \t %d ",A,B,C);
+    P2 = &B ;
+    printf("\n %d \t %d \t %d ",A,B,C);
+    *P1 -= * P2 ;
+    printf("\n %d \t %d \t %d ",A,B,C);
+    ++*P2 ;
+    printf("\n %d \t %d \t %d ",A,B,C);
+    *P1 *= *P2 ;
+    printf("\n %d \t %d \t %d ",A,B,C);
+    A = ++*P2 * *P1 ;
+    printf("\n %d \t %d \t %d ",A,B,C);
+    P1 = &A ;
+    printf("\n %d \t %d \t %d ",A,B,C);
+    *P2 = *P1 /= * P2 ;
+    printf("\n %d \t %d \t %d ",A,B,C);
+*//*
+    int T[]={12,23,34,45,56,67,78,89,90} , *P ;
+
+    P = T ;
+
+    printf("%d \n",*P+2);
+    printf("%d \n",*(P+2));
+    printf("%d \n",&P+1);
+    printf("%d \n",&T[4]-3);
+    printf("%d \n",T+3);
+    printf("%d \n",&T[7]-P);
+    printf("%d \n",P+(*P-10));
+    printf("%d \n",*(P+*(P+8)-T[7]));        
+*//*
+    int T[]={5,10,15,20,25} , j , *q ;
+    
+    for ( q = &T[0] ; q <= &T[4] ; q++)
+    {
+        printf("%d \t",*q);
+    }
+    
+    printf("\n");
+
+    for ( q = T , j = 0 ; q+j <= T+4 ; q++ , j++)
+    {
+        printf("%d \t",*(q+j));
+    }
+    
+    printf("\n");
+
+    for ( q = T+4 ; q >= T ; q--)
+    {
+        printf("%d \t",*q);
+    }
+    
+    printf("\n");
+
+    for ( q = T+4 ; q >= T ; q--)
+    {
+        printf("%d \t",T[q-T]);
+    }
+*/
+    int A[Nmax] , B[Nmax] , M , N , i ;       
+
+    do
+    {
+        printf("M : ");
+        scanf("%d",&M);
+        printf("N : ");
+        scanf("%d",&N);
+    } while ( M < 0 || M >= Nmax || N < 0 || N >= Nmax );
+    
+    for ( i = 0 ; i < M ; i++)
+    {
+        printf("A[%d] = ",i);
+        scanf("%d",&A[i]);
+    }
+    
+    for ( i = 0 ; i < N ; i++)
+    {
+        printf("B[%d] = ",i);
+        scanf("%d",&B[i]);
+    }
+
+    for ( i = 0 ; i < M+N ; i++)
+    {
+        B[N+i] = A[i]; 
+    }
+    
+    for ( i = 0 ; i < M+N ; i++)
+    {
+        printf("%d \t",B[i]);
+    }
     
 }
