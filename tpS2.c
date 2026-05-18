@@ -5,7 +5,7 @@
 
 int main (void)
 {
-/*
+/* ( exercice 1 )
     int T[10] , i ;
 
     for ( i = 0 ; i < 10 ; i++)
@@ -17,7 +17,8 @@ int main (void)
     {
         printf("T[%d] = %d \t",i,T[i]);
     }
-*//*
+
+*//*  ( exercice 2 )
     int T[Nmax] , i , N ;
     
     do 
@@ -35,7 +36,8 @@ int main (void)
     {
         printf("%d,",T[i]);
     }
-*//*
+
+*//*  ( exercice 3 )
     int T[Nmax] , i , N ;
     
     do
@@ -56,7 +58,8 @@ int main (void)
             printf("%d ,",T[i]);
         }
     }
-*//*
+
+*//*  ( exercice 4 )
     int T[Nmax] , i , N , S = 0 ;
     
     do
@@ -72,7 +75,8 @@ int main (void)
         S += T[i] ;
     }
     printf("la somme des elements est : %d \n",S);
-*//*
+
+*//*  ( exercice 5 )
     int T[Nmax] , i , N , max = 0 , min ;
     
     do
@@ -102,7 +106,8 @@ int main (void)
     }
     printf("maximum : %d \n",max);
     printf("minimum : %d \n",min);
-*//*
+
+*//*  ( exercice 6 )
     int T[Nmax] , i , max1 = 0 , max2 = 0 , N ;
 
     do
@@ -128,7 +133,8 @@ int main (void)
     }
     printf("le premier grand element : %d \n",max1);
     printf("le deuxieme nombre est : %d \n",max2);
-*//*
+
+*//*  ( exercice 7 )
     int T[Nmax] , T1[Nmax] ,T2[Nmax] , i=0 , N , j=0 , k=0 ;
 
     do
@@ -165,7 +171,8 @@ int main (void)
     {
         printf("%d \t",T2[i]);
     }
-*//*
+
+*//*  ( exercice 8 )
     int T[Nmax] , i , N , cpt = 1 ;
     
     do
@@ -192,7 +199,8 @@ int main (void)
         }
         printf("%d est repete %d fois \n",T[i],cpt);
     }
-*//*
+
+*//*  ( exercice 9 )
     int T[Nmax] , i , j , N , temp ;
 
     do
@@ -224,7 +232,8 @@ int main (void)
     {
         printf("%d \t",T[i]);
     }
-*//*
+
+*//*  ( exercice 10 )
     int T[Nmax] , i , N , val , pos ,temp , j ;     
     
     do
@@ -283,7 +292,8 @@ int main (void)
     {
         printf("%d \t",T[i]);
     }
-*//*
+
+*//*  ( exercice 11 )
     int A[Nmax] , B[Nmax] , i , N , T[Nmax] , X  , temp , j ;
 
     do
@@ -340,7 +350,8 @@ int main (void)
         printf("%d \t",T[i]);
     }
     printf("\n");
-*//*
+
+*//*  ( exercice 12 )
     int T[Lmax][Cmax] , A[Lmax][Cmax] , i , j , m , n ;  
 
     do
@@ -374,7 +385,8 @@ int main (void)
         }
         printf("\n");
     }
-*//*
+
+*//*  ( exercice 13 )
     int T[Nmax][Nmax] = {0} , i , j , Dim ;
 
     do
@@ -403,7 +415,8 @@ int main (void)
         }
         printf("\n");
     }
-*//*
+
+*//*  ( exercice 14 )
     int A[Nmax][Nmax] , i , j , N , temp = 0 ;
 
     do
@@ -454,7 +467,8 @@ int main (void)
         }
         printf("\n");
     }
-*//*
+
+*//*  ( exercice 15 )
     int T[Lmax][Cmax] , i , j , S = 0 , L , C ;
     
     do
@@ -489,7 +503,7 @@ int main (void)
     
     printf("la somme des valeurs est : %d \n",S);
 
-*//*
+*//*  ( exercice 16 )
     int T[Lmax][Nmax] , L , C , i , j , Sc ;
     
     do
@@ -537,7 +551,8 @@ int main (void)
         
         printf("\n");
     }
-*//*
+
+*//*  ( exercice 17 )
     int T1[Lmax][Cmax] , T2[Lmax][Cmax] , T3[Lmax][Cmax] , C1 , L1 , C2 , L2 , i , j , k , l ;
 
     do
@@ -600,7 +615,7 @@ int main (void)
         printf("\n");
     }
 
-*//*
+*//*  ( exercice 18 )
     int T[Nmax][Nmax] , i , j , dim , S = 0 ;
     
     do
@@ -643,7 +658,7 @@ int main (void)
     
     printf("la somme de la diagonal est : %d \n",S);
 
-*//*
+*//*  ( exercice 19 )
     int T[Lmax][Cmax] , i , j , L , C ;
     
     do
@@ -686,7 +701,8 @@ int main (void)
         
         printf("\n");
     }
-*//*
+
+*//*  ( exercice 20 )
     int A = 1 , B = 2 , C = 3 ;
     int *P1 , * P2 ;
 
@@ -712,7 +728,8 @@ int main (void)
     printf("\n %d \t %d \t %d ",A,B,C);
     *P2 = *P1 /= * P2 ;
     printf("\n %d \t %d \t %d ",A,B,C);
-*//*
+
+*//*  ( exercice 21 )
     int T[]={12,23,34,45,56,67,78,89,90} , *P ;
 
     P = T ;
@@ -725,7 +742,8 @@ int main (void)
     printf("%d \n",&T[7]-P);
     printf("%d \n",P+(*P-10));
     printf("%d \n",*(P+*(P+8)-T[7]));        
-*//*
+
+*//*  ( exercice 22 )
     int T[]={5,10,15,20,25} , j , *q ;
     
     for ( q = &T[0] ; q <= &T[4] ; q++)
@@ -753,7 +771,8 @@ int main (void)
     {
         printf("%d \t",T[q-T]);
     }
-*/
+
+*//*  ( exercice 23 )
     int A[Nmax] , B[Nmax] , M , N , i ;       
 
     do
@@ -785,5 +804,78 @@ int main (void)
     {
         printf("%d \t",B[i]);
     }
+
+*//*  ( exercice 24 )
+    int min , i ;
+    float TabNotes[10] , S = 0 , M , *P , max = 0 , temp ;
+
+    for ( P = TabNotes ; P < TabNotes + 10 ; P++)
+    {
+        printf("Note %d : ",(P - TabNotes + 1));
+        scanf("%f", P);
+
+        S += *P;
+
+        if (max < *P)
+        {
+            max = *P;
+        }
+    }
+
+    M = S / 10.0;
+
+    for ( i = 0 ; i < 10 - 1 ; i++)
+    {
+        min = i ;
+
+        for ( int j = i + 1 ; j < 10 ; j++)
+        {
+            if ( TabNotes[j] < TabNotes[min] )
+            {
+                min = j ;
+            }
+        }
+
+        temp = TabNotes[i] ;
+        TabNotes[i] = TabNotes[min] ;
+        TabNotes[min] = temp ;
+    }
+
+    printf("\nLa moyenne generale est : %.2f\n", M);
+    printf("La note maximale est : %.2f\n", max);
+
+    printf("\nNotes triees en ordre croissant :\n");
+
+    for ( i = 0 ; i < 10 ; i++)
+    {
+        printf("%.2f\n", TabNotes[i]);
+    }
+*/
+    int M[5][5] , i , j , S = 0 ;
+
+    for ( i = 0 ; i < 5 ; i++)
+    {
+        for ( j = 0 ; j < 5 ; j++)
+        {
+            printf("T[%d][%d] = ",i+1,j+1);
+            scanf("%d",&M[i][j]);
+
+            S += M[i][j] ;
+        }
+    }
     
+    printf("\nLignes d'indice impair :\n");
+
+    for ( i = 1 ; i < 5 ; i += 2)
+    {
+        for ( j = 0 ; j < 5 ; j++)
+        {
+            printf("%d",M[i][j]);
+        }
+
+        printf("\n");
+    }
+    
+    printf("la somme des elements de la matrice est : %d \n",S);
+     
 }
