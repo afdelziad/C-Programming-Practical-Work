@@ -1,16 +1,18 @@
 C Programming Practical Work
 
-This repository contains the practical work (TPs) completed during my first year of Computer Engineering at EMSI.
+This repository contains the practical work (TPs) completed during my course of study on Computer Engineering at EMSI.
 
 The practical work is divided into two semesters and covers different concepts of C programming and algorithmics.
 
 📁 Practical Work
 
-TPS1 — Semester 1 :
+TPS1 — Semester 1 ( First year ) :
 Practical work completed during the first semester, focusing on the fundamentals of C programming and algorithmic problem solving.
 
-TPS2 — Semester 2 :
+TPS2 — Semester 2  ( First year ) :
 Practical work completed during the second semester, covering additional C programming concepts and algorithmic exercises.
+
+TPS3 — Semestre 3 ( Second Year ) 
 
 🛠️ Tools
 
@@ -20,7 +22,7 @@ Practical work completed during the second semester, covering additional C progr
 
 🎯 Objective
 
-The objective of these practical sessions was to strengthen my understanding of C programming, improve my problem-solving skills, and apply the theoretical concepts learned during my first year.
+The objective of these practical sessions was to strengthen my understanding of C programming, improve my problem-solving skills, and apply the theoretical concepts learned during my course of study .
 
 👨‍💻 Author
 
